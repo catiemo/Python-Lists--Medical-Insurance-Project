@@ -28,11 +28,11 @@ estimated_insurance_data.append(("Valentina", valentina_insurance_cost))
 print("Here is the estimated insurance cost data: " + str(estimated_insurance_data))
 
 insurance_cost_difference = []
-insurance_cost_difference_maria = maria_insurance_cost - 4150.0
+insurance_cost_difference_maria = maria_insurance_cost - insurance_costs[0]
 
-insurance_cost_difference_rohan = rohan_insurance_cost - 5320.0
+insurance_cost_difference_rohan = rohan_insurance_cost - insurance_costs[1]
 
-insurance_cost_difference_valentina = valentina_insurance_cost - 35210.0
+insurance_cost_difference_valentina = valentina_insurance_cost - insurance_costs[2]
 
 insurance_cost_difference.append(("Maria", insurance_cost_difference_maria))
 insurance_cost_difference.append(("Rohan", insurance_cost_difference_rohan))
@@ -45,7 +45,7 @@ akira_insurance_cost = estimate_insurance_cost(name = "Akira", age = 19, sex = 1
 estimated_insurance_data.append(("Akira", akira_insurance_cost))
 print("Here is the estimated insurance cost data: " + str(estimated_insurance_data))
 
-insurance_cost_difference_akira = akira_insurance_cost - 35210.0
+insurance_cost_difference_akira = akira_insurance_cost - insurance_costs[-1]
 
 insurance_cost_difference.append(("Akira", insurance_cost_difference_akira))
 
